@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://godeamon.github.io/loongflow/</loc>
+         <lastmod>2026-01-08</lastmod>
+    </url>
+    <url>
+         <loc>https://godeamon.github.io/loongflow/agents_concept/</loc>
+         <lastmod>2026-01-08</lastmod>
+    </url>
+    <url>
+         <loc>https://godeamon.github.io/loongflow/contributing/</loc>
+         <lastmod>2026-01-08</lastmod>
+    </url>
+    <url>
+         <loc>https://godeamon.github.io/loongflow/modules/general_evolve/</loc>
+         <lastmod>2026-01-08</lastmod>
+    </url>
+    <url>
+         <loc>https://godeamon.github.io/loongflow/modules/ml_evolve/</loc>
+         <lastmod>2026-01-08</lastmod>
+    </url>
+</urlset>
