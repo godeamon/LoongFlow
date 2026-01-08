@@ -1,0 +1,45 @@
+site_name: LoongFlow 文档
+site_url: https://godeamon.github.io/loongflow/
+repo_url: https://github.com/godeamon/loongflow
+repo_name: GitHub
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.tabs           # 顶部导航条
+    - navigation.top            # 回到顶部按钮
+    - search.suggest            # 搜索建议
+    - search.highlight          # 搜索高亮
+    - content.code.copy         # 代码复制按钮
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: 切换至深色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: 切换至浅色模式
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+
+nav:
+  - 首页: index.md
+  - 核心概念:
+      - Agent 体系: agents_concept.md
+  - 模块详解:
+      - General Evolve: modules/general_evolve.md
+      - ML Evolve: modules/ml_evolve.md
+  - 社区:
+      - 贡献指南: contributing.md
