@@ -1,8 +1,11 @@
 name: Deploy Docs
+
 on:
   push:
     branches:
-      - docs/test  # ⚠️ 如果你的主分支叫 master，请这里改成 master
+      - docs/test  # 开发分支
+    tags:
+      - 'v*'       # 版本 Tag 触发，如 v1.0.0
 
 permissions:
   contents: write
@@ -11,9 +14,41 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # 必须拉取完整历史，mike 需要用到 git 历史
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
           python-version: 3.12
-      - run: pip install mkdocs-material
-      - run: mkdocs gh-deploy --force
+
+      - name: Install dependencies
+        run: |
+          pip install mkdocs-material mkdocs-static-i18n mike
+
+      - name: Configure Git user
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+      - name: Deploy with mike
+        run: |
+          # 1. 如果是 Tag 推送 (正式版本)
+          if [[ $GITHUB_REF == refs/tags/* ]]; then
+            VERSION=${GITHUB_REF#refs/tags/}
+            echo "Deploying version: $VERSION"
+            # 部署具体版本，并更新 'latest' 别名指向此版本
+            mike deploy --push --update-aliases $VERSION latest
+          
+          # 2. 如果是 master 分支推送 (开发版)
+          elif [[ $GITHUB_REF == refs/heads/master ]]; then
+             echo "Deploying master as dev"
+             mike deploy --push dev
+          
+          # 3. 如果是 docs/test 分支推送 (测试版)
+          else
+             echo "Deploying branch as test-doc"
+             mike deploy --push test-doc
+          fi
