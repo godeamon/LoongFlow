@@ -1,0 +1,322 @@
+[**中文版**](./README_zh.md)
+
+<div align="center">
+
+<h2 align="center">LoongFlow: An Expert-Grade Agent Framework That Thinks and Learns.</h2>
+
+_Set creativity free! LoongFlow: effortlessly transform your expert experience into professional AI productivity._
+
+Enable Agents to think and learn through the PES paradigm, equipping them with long-range complex reasoning capabilities, the ability to bypass local optima, and the capacity to accumulate experience through iteration to achieve expert-level breakthroughs.
+
+<p align="center">
+    <a href="https://arxiv.org/abs/2512.24077">
+        <img
+            src="https://img.shields.io/badge/cs.AI-2512.24077-B31C1C?logo=arxiv&logoColor=B31C1C"
+            alt="arxiv"
+        />
+    </a>
+    <a href="https://pypi.org/project/LoongFlow/">
+        <img
+            src="https://img.shields.io/badge/python-3.12+-blue?logo=python"
+            alt="pypi"
+        />
+    </a>
+    <a href="https://pypi.org/project/evolux/">
+        <img
+            src="https://img.shields.io/badge/version-v1.0.0-blue"
+            alt="pypi"
+        />
+    </a>
+    <a href="./LICENSE">
+        <img
+            src="https://img.shields.io/badge/license-Apache--2.0-green"
+            alt="license"
+        />
+    </a>       
+</p>
+
+
+
+</div>
+
+<br/>
+
+<table align="center" width="100%" style="border: none; table-layout: fixed;">
+<tr>
+
+<td width="33%" align="center" style="vertical-align: top; padding: 20px;">
+<div style="height: 60px; display: flex; align-items: center; justify-content: center;">
+<h3 style="margin: 0; padding: 0;">🚀 <strong>General-Evolve</strong></h3>
+</div>
+<div align="center" style="margin: 10px 0;">
+  <img src="https://img.shields.io/badge/AGENT-General_Evolve-blue" alt="agent Badge" />
+</div>
+<div style="height: 60px; display: flex; align-items: center; justify-content: center;">
+<p align="center"><strong>General Evolve Agent </strong></p>
+</div>
+<div style="height: 60px; display: flex; align-items: center; justify-content: center;">
+<p align="center"><strong>Efficient</strong>,<strong>stable</strong> driving of universal algorithm design and continuous evolution.</p>
+</div>
+</td>
+
+<td width="30%" align="center" style="vertical-align: top; padding: 20px;">
+<div style="height: 60px; display: flex; align-items: center; justify-content: center;">
+<h3 style="margin: 0; padding: 0;">🔥 <strong>ML-Evolve</strong></h3>
+</div>
+<div align="center" style="margin: 10px 0;">
+  <img src="https://img.shields.io/badge/AGENT-ML_Evolve-blue" alt="agent Badge" />
+</div>
+<div style="height: 60px; display: flex; align-items: center; justify-content: center;">
+<p align="center"><strong>Machine Learning Agent</strong></p>
+</div>
+<div style="height: 60px; display: flex; align-items: center; justify-content: center;">
+<p align="center"><strong>Full-process</strong>,<strong>autonomous</strong> construction and continuous evolutionary breakthrough.</p>
+</div>
+
+</td>
+<td width="30%" align="center" style="vertical-align: top; padding: 20px;">
+<div style="height: 60px; display: flex; align-items: center; justify-content: center;">
+<h3 style="margin: 0; padding: 0;">⭐ <strong>LoongFlow</strong></h3>
+</div>
+<div align="center" style="margin: 10px 0;">
+  <img src="https://img.shields.io/badge/FRAMEWORK-LoongFlow-blue" alt="Backend Badge" />
+</div>
+<div style="height: 60px; display: flex; align-items: center; justify-content: center;">
+<p align="center"><strong>Universal Agent Framework</strong></p>
+</div>
+<div style="height: 60px; display: flex; align-items: center; justify-content: center;">
+<p align="center">A Universal Agent Framework for <strong>Expert-Grade</strong> AI Productivity.</p>
+</div>
+</td>
+
+</tr>
+</table>
+
+<br/>
+
+**LoongFlow**: Inspired by Wang Yangming's "Enlightenment at Longchang".LoongFlow is dedicated to breaking the barrier between Knowing and Doing. We enable wisdom to awaken through the unity of knowledge and action, ensuring that every drop of professional expertise is transformed into powerful **AI productivity**.
+
+## 📰 News
+
+- **[2025-12]** 🎉 LoongFlow v1 has been released now!
+
+## ✨ Why LoongFlow?
+
+**An expert-grade Agent framework that thinks and learns. It empowers Agents to think like scientists, helping developers rapidly transform their professional expertise into expert-level Agents.**
+
+<p align="center">
+<img src="../assets/images/loongflow_fr_v1.jpg" alt="LoongFlow Framework" width="80%"/>
+</p>
+
+**Intelligent Thinking**: 
+Innovative PES (Planning-Execution-Summary) Paradigm. LoongFlow empowers Agents with structured thinking to tackle long-range complex reasoning challenges. This enables Agents to iterate through high-difficulty tasks with the rigorous mindset of a human scientist.
+
+**Continuous Learning**: 
+Innovative Multi-Structure Fusion Memory. By actively generating model reasoning contexts, LoongFlow allows Agents to continuously synthesize experience during task iterations. This results in a "run-and-improve" mechanism, achieving lightweight learning and evolution without heavy retraining.
+
+**Expert-Grade Performance**: 
+Validated in General Evolution and Machine Learning—the two most demanding domains.
+- Mathematical Challenges (Tao’s & AlphaEvolve sets): Outperformed the best human results on 11 problems and surpassed AlphaEvolve’s results on 7 problems, achieving the latest SOTA.
+- MLE-bench (Kaggle Challenges): Validated across 40 Kaggle competitions, securing 22 Gold Medals.
+- Efficiency Gains: Achieved an approximate 60% increase in comprehensive evolutionary efficiency compared to traditional methods.
+
+
+We believe that the key to designing an expert-level Agent capable of solving complex problems lies in the **Agent’s thinking paradigm**. The thinking paradigm determines the complexity of problems an Agent can handle and sets the ceiling for its effectiveness. LoongFlow is built specifically for complex tasks requiring long-range reasoning, helping developers rapidly build Agents with domain-expert performance.
+
+
+## 🚀 Quick Start
+
+### Installation
+
+> LoongFlow requires **Python 3.12** or higher.
+
+```bash
+# Install uv/conda and clone repository
+uv: https://docs.astral.sh/uv/getting-started/installation/
+Miniforge: https://conda-forge.org/download/
+
+# Install with uv
+cd LoongFlow
+uv venv .venv --python 3.12
+source .venv/bin/activate
+uv pip install -e .
+
+# Install with conda
+cd LoongFlow
+conda create -n loongflow python=3.12
+conda activate loongflow
+pip install -e .
+
+```
+
+### Run Examples
+
+#### Run General Evolve Agent
+
+```bash
+# Config LLM: Edit task_config.yaml, recommend to use gemini-3-pro-preview or deepseek-r1-250528
+# Example: ./agents/general_evolve/examples/packing_circle_in_unit_square/task_config.yaml
+# The model needs to configure providers as needed, default provider is openai. for example: openai/gemini-3-pro-preview
+llm_config:
+  url: "https://xxxxxx/v1"
+  api_key: "******"
+  model: "openai/gemini-3-pro-preview"
+
+# Run your first evolve task, the evolution results are in the ./output directory
+uv pip install -r ./agents/general_evolve/examples/packing_circle_in_unit_square/requirements.txt
+./run_task.sh packing_circle_in_unit_square --background
+
+# Check task log
+tail -f ./agents/general_evolve/examples/packing_circle_in_unit_square/run.log
+
+# Stop task
+./run_task.sh stop packing_circle_in_unit_square
+
+```
+
+#### Run ML Evolve Agent
+
+```bash
+# Config LLM: Edit task_config.yaml, recommend to use gemini-3-pro-preview or deepseek-r1-250528
+# Example: ./agents/ml_evolve/examples/ml_example/task_config.yaml
+# The model needs to configure providers as needed, default provider is openai. for example: openai/gemini-3-pro-preview
+llm_config:
+  url: "https://xxxxxx/v1"
+  api_key: "******"
+  model: "openai/gemini-3-pro-preview"
+
+# Init ml evolve
+./run_ml.sh init
+
+# Run your first evolve task, the evolution results are in the ./output directory
+# ./run_ml.sh run <task_name> [--background] [other Python args]
+./run_ml.sh run ml_example --background
+
+# Check task log
+tail -f ./agents/ml_evolve/examples/ml_example/agent.log
+
+# Stop task
+./run_ml.sh stop ml_example
+
+```
+
+## 🌟 LoongFlow Results
+
+#### Mathematical Challenges (Tao’s & AlphaEvolve sets)
+
+| Problem                           | Previously best known    |     AlphaEvolve      | LoongFlow Evolve Result |     Details     |
+| --------------------------------- | -----------------------  | -------------------- | ----------------------- | --------------- |
+| Circle packing in a square        | 2.634 (Higher is Better) |  2.6358627564136983  |  **2.6359829624734026** | [packing_circle_in_unit_square](./agents/general_evolve/examples/packing_circle_in_unit_square)               |
+| Circle packing in a rectangle     | 2.364 (Higher is Better) |  2.3658321334167627  |  **2.365832229500823**  | [packing_circle_in_rectangle](./agents/general_evolve/examples/packing_circle_in_rectangle)                   |
+| Packing hexagons in hexagons      | 3.943 (Lower is Better)  |  3.930092            |  **3.928906855463712**  | [packing_hexagons_in_hexagons](./agents/general_evolve/examples/packing_hexagons_in_hexagons)                 |
+| Max to min ratios                 | 12.89（Lower is Better） |  12.88926611203463   |  **12.889243547212832** | [max_to_min_ratios](./agents/general_evolve/examples/max_to_min_ratios)                                       |
+| Minimum Overlap Problem           | 0.380927 (Lower is Better) |  0.380924      | **0.3809137564083654**    | [minimum_overlap_problem](./agents/general_evolve/examples/minimum_overlap_problem)                           |
+| An uncertainty inequality         | 0.3523 (Lower is Better)   |  0.35209910442252773  |  **0.352099104421844**   | [uncertainty_inequality](./agents/general_evolve/examples/uncertainty_inequality)                             |
+| Second autocorrelation inequality | 0.88922 (Higher is Better) |  0.8962799441554083   | **0.9027021077220739**  | [second_autocorrelation_inequality](./agents/general_evolve/examples/second_autocorrelation_inequality)       |
+| First autocorrelation inequality  | 1.5098 (Lower is Better)   |  1.5052939684401607   |  1.509527314861778   | [first_autocorrelation_inequality](./agents/general_evolve/examples/first_autocorrelation_inequality)         |
+| Sums differences problems         | 1.059793 (Higher is Better) | 1.1219357374860444   |  1.103534711409646   | [sums_and_differences_problems_1](./agents/general_evolve/examples/sums_and_differences_problems_1)           |
+| heilbronn triangles               | 0.036（Higher is Better）|  0.036529889880030156  | 0.0365298898793351    | [heilbronn_problem_for_triangles](./agents/general_evolve/examples/heilbronn_problem_for_triangles)           |
+| heilbronn convex regions          | 0.0306（Higher is Better） |  0.030936889034895654  | 0.030900663674639613   | [heilbronn_problem_for_convex_regions](./agents/general_evolve/examples/heilbronn_problem_for_convex_regions) |
+
+Across 11 challenges in geometry and algebra, LoongFlow outperformed all known best results and surpassed AlphaEvolve on 7 specific problems, achieving the latest SOTA.
+
+#### MLE-bench (Kaggle Challenges)
+
+| Problem                                  | LoongFlow Evolve Result | Details                                          |
+| ---------------------------------------- | ----------------------- | ------------------------------------------------ |
+| aerial-cactus-identification             | 🥇 Gold                 | [aerial-cactus-identification](./agents/ml_evolve/examples/mlebench/competitions/simple/aerial-cactus-identification) |
+| denoising-dirty-documents                | 🥇 Gold                 | [denoising-dirty-documents](./agents/ml_evolve/examples/mlebench/competitions/simple/denoising-dirty-documents) |
+| detecting-insults-in-social-commentary   | 🥇 Gold                 | [detecting-insults-in-social-commentary](./agents/ml_evolve/examples/mlebench/competitions/simple/detecting-insults-in-social-commentary) |
+| dogs-vs-cats-redux-kernels-edition       | 🥇 Gold                 | [dogs-vs-cats-redux-kernels-edition](./agents/ml_evolve/examples/mlebench/competitions/simple/dogs-vs-cats-redux-kernels-edition) |
+| histopathologic-cancer-detection         | 🥇 Gold                 | [histopathologic-cancer-detection](./agents/ml_evolve/examples/mlebench/competitions/simple/histopathologic-cancer-detection) |
+| nomad2018-predict-transparent-conductors | 🥇 Gold                 | [nomad2018-predict-transparent-conductors](./agents/ml_evolve/examples/mlebench/competitions/simple/nomad2018-predict-transparent-conductors) |
+| plant-pathology-2020-fgvc7               | 🥇 Gold                 | [plant-pathology-2020-fgvc7](./agents/ml_evolve/examples/mlebench/competitions/simple/plant-pathology-2020-fgvc7) |
+| tabular-playground-series-dec-2021       | 🥇 Gold                 | [tabular-playground-series-dec-2021](./agents/ml_evolve/examples/mlebench/competitions/simple/tabular-playground-series-dec-2021) |
+| the-icml-2013-whale-challenge-right-whale-redux   | 🥇 Gold        | [the-icml-2013-whale-challenge-right-whale-redux](./agents/ml_evolve/examples/mlebench/competitions/simple/the-icml-2013-whale-challenge-right-whale-redux) |
+| google-quest-challenge          | 🥇 Gold                 | [google-quest-challenge](./agents/ml_evolve/examples/mlebench/competitions/medium/google-quest-challenge) |
+| plant-pathology-2021-fgvc8      | 🥇 Gold                 | [plant-pathology-2021-fgvc8](./agents/ml_evolve/examples/mlebench/competitions/medium/plant-pathology-2021-fgvc8) |
+| us-patent-phrase-to-phrase-matching     | 🥇 Gold                 | [us-patent-phrase-to-phrase-matching](./agents/ml_evolve/examples/mlebench/competitions/medium/us-patent-phrase-to-phrase-matching) |
+| predict-volcanic-eruptions-ingv-oe      | 🥇 Gold                 | [predict-volcanic-eruptions-ingv-oe](./agents/ml_evolve/examples/mlebench/competitions/hard/predict-volcanic-eruptions-ingv-oe) |
+| stanford-covid-vaccine                  | 🥇 Gold                 | [stanford-covid-vaccine](./agents/ml_evolve/examples/mlebench/competitions/hard/stanford-covid-vaccine) |
+
+Validated across 40 Kaggle competitions within the MLE-bench, securing 22 Gold Medals. The full results will be released upon the completion of all remaining competitions.
+
+#### Others
+
+Additionally, validation was conducted on problems such as [mathematical puzzles](./agents/general_evolve/examples/math_flip) and [MOE load balancing algorithms](./agents/general_evolve/examples/moe_lb_time)，Detailed examples can be found in [Examples](./agents/general_evolve/examples).
+
+
+## 🧩 Advanced Usage
+
+#### EvolveAgent
+
+```python
+from evolux.evolve import EvolveAgent
+
+# Config evolve agent
+agent = EvolveAgent(
+    config=config,
+    checkpoint_path=checkpoint_path,
+)
+
+# Register worker（Implement the Planner, Executor, and Summary interfaces）
+agent.register_planner_worker("planner", PlanAgent)
+agent.register_executor_worker("executor", ExecuteAgent)
+agent.register_summary_worker("summary", SummaryAgent)
+
+# Run agent
+result = await agent()
+```
+
+For more details, please refer to [EvolveAgent](./src/evolux/evolve/README.md)
+
+#### ReActAgent
+
+```python
+from evolux.react import AgentContext, ReActAgent
+from agentsdk.tools import TodoReadTool, TodoWriteTool, Toolkit
+
+# Build agent context
+toolkit = Toolkit()
+toolkit.register_tool(TodoReadTool())
+toolkit.register_tool(TodoWriteTool())
+
+# Build default react agent
+agent = ReActAgent.create_default(model=model, sys_prompt=sys_prompt, toolkit=toolkit)
+
+# Run agent
+result = await agent(message)
+```
+
+For more details, please refer to [ReActAgent](./src/evolux/react/README.md)
+
+## 🤝 Contribution
+
+Please read [CONTRIBUTING.md](./CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## 💬 Contact
+
+Welcome to join our community on
+
+| [Discord](https://discord.gg/YSfdrC8HJh)                                | Wechat                                                                 |
+|-------------------------------------------------------------------------|------------------------------------------------------------------------|
+| <img src="../assets/images/discord_invite.png" width="200" height="200"> | <img src="../assets/images/wechat_invite.jpg" width="200" height="200"> |
+
+## 📜 License
+
+LoongFlow is licensed under the Apache License 2.0.
+
+## 📚 Citation
+If you find this work useful, please consider citing:
+
+```bibtex
+@misc{LoongFlow2025,
+      title={LoongFlow: Directed Evolutionary Search via a Cognitive Plan-Execute-Summarize Paradigm}, 
+      author={Chunhui Wan and Xunan Dai and Zhuo Wang and Minglei Li and Yanpeng Wang and Yinan Mao and Yu Lan and Zhiwen Xiao},
+      year={2025},
+      eprint={2512.24077},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2512.24077}, 
+}
+```

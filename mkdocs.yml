@@ -1,45 +1,108 @@
-site_name: LoongFlow 文档
-site_url: https://godeamon.github.io/loongflow/
-repo_url: https://github.com/godeamon/loongflow
-repo_name: GitHub
+site_name: LoongFlow
+site_url: https://godeamon.github.io/LoongFlow/
+site_description: A Cognitive Plan-Execute-Summarize Agent Framework
+repo_name: godeamon/LoongFlow
+repo_url: https://github.com/godeamon/LoongFlow
+edit_uri: edit/main/docs/
 
+copyright: Copyright &copy; 2025 LoongFlow Team
+
+# 主题配置 (参考 ADK 风格: 左侧导航，无顶部Tab)
 theme:
   name: material
-  language: zh
+  logo: assets/images/loongflow_fr_v1.jpg
+  favicon: assets/images/loongflow_fr_v1.jpg
+  icon:
+    repo: fontawesome/brands/github
   features:
-    - navigation.tabs           # 顶部导航条
-    - navigation.top            # 回到顶部按钮
-    - search.suggest            # 搜索建议
-    - search.highlight          # 搜索高亮
-    - content.code.copy         # 代码复制按钮
+    - navigation.indexes     # 允许点击目录标题
+    - navigation.sections    # 侧边栏分块
+    - navigation.expand      # 默认展开
+    - navigation.top         # 返回顶部按钮
+    - navigation.tracking    # URL 随滚动变化
+    - toc.follow             # 目录随滚动高亮
+    - content.code.copy      # 代码块复制按钮
+    - content.action.edit    # 编辑此页
+    # - navigation.tabs      # 禁用此项以保持左侧导航
   palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: indigo
-      accent: indigo
+    # 浅色模式 (Google ADK 风格)
+    - scheme: default
+      primary: white
+      accent: blue
       toggle:
-        icon: material/weather-night
-        name: 切换至深色模式
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # 深色模式
+    - scheme: slate
       primary: black
-      accent: indigo
+      accent: blue
       toggle:
-        icon: material/weather-sunny
-        name: 切换至浅色模式
+        icon: material/brightness-4
+        name: Switch to light mode
 
+# 插件配置
+plugins:
+  - search
+  - i18n:
+      docs_structure: folder # 关键配置：使用 en/ 和 zh/ 文件夹区分
+      languages:
+        - locale: en
+          name: English
+          default: true
+          build: true
+        - locale: zh
+          name: 简体中文
+          build: true
+      nav_translations:
+        zh:
+          Home: 首页
+          Quick Start: 快速开始
+          User Guide: 用户指南
+          Core Concepts: 核心概念
+          API Reference: API 参考
+          Community: 社区
+
+# Markdown 扩展
 markdown_extensions:
   - admonition
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
   - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
 
+# 版本管理 (配合 mike)
+extra:
+  version:
+    provider: mike
+
+# 导航结构 (路径相对于 en/ 或 zh/ 目录)
 nav:
-  - 首页: index.md
-  - 核心概念:
-      - Agent 体系: agents_concept.md
-  - 模块详解:
-      - General Evolve: modules/general_evolve.md
-      - ML Evolve: modules/ml_evolve.md
-  - 社区:
-      - 贡献指南: contributing.md
+  - Home: index.md
+  - Quick Start: quickstart.md
+  - User Guide:
+      - General Evolve: guide/general_evolve.md
+      - ML Evolve: guide/ml_evolve.md
+  - Core Concepts:
+      # 下面变成了目录结构
+      - Evolve Agent:
+          - Overview: core/evolve_agent/index.md     # 对应原来的文件
+          - Components: core/evolve_agent/components.md # 新增的子页面
+      - React Agent:
+          - Overview: core/react_agent/index.md
+          - Usage: core/react_agent/usage.md
+  - API Reference:
+      - AgentSDK: sdk/sdk.md
+  - Community:
+      - Contributing: community/contributing.md
