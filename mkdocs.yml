@@ -108,8 +108,8 @@ nav:
       - General Evolve: agents/general_evolve.md
       - ML Evolve: agents/ml_evolve.md
   - Build Agents:
-      - Get started: build/get_started.md
-      - Build your agent: build/build_agent.md
+      - Get started: build_agent/get_started.md
+      - Build your agent: build_agent/build_agent.md
   - Components:
       - components: components/components.md
   - Reference:
