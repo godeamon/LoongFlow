@@ -2,198 +2,240 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
         <loc>https://godeamon.github.io/LoongFlow/test-doc/agents_concept/</loc>
-        <lastmod>2026-01-14</lastmod>
+        <lastmod>2026-01-16</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-doc/agents_concept/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doczh/agents_concept/"/>
     </url>
     <url>
         <loc>https://godeamon.github.io/LoongFlow/test-doc/contributing/</loc>
-        <lastmod>2026-01-14</lastmod>
+        <lastmod>2026-01-16</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-doc/contributing/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doczh/contributing/"/>
     </url>
     <url>
         <loc>https://godeamon.github.io/LoongFlow/test-doc/</loc>
-        <lastmod>2026-01-14</lastmod>
+        <lastmod>2026-01-16</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-doc/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doczh/"/>
     </url>
     <url>
-        <loc>https://godeamon.github.io/LoongFlow/test-doc/quickstart/</loc>
-        <lastmod>2026-01-14</lastmod>
+        <loc>https://godeamon.github.io/LoongFlow/test-doc/agents/general_evolve/</loc>
+        <lastmod>2026-01-16</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-doc/quickstart/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doczh/quickstart/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-doc/agents/general_evolve/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doczh/agents/general_evolve/"/>
+    </url>
+    <url>
+        <loc>https://godeamon.github.io/LoongFlow/test-doc/agents/ml_evolve/</loc>
+        <lastmod>2026-01-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-doc/agents/ml_evolve/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doczh/agents/ml_evolve/"/>
     </url>
     <url>
         <loc>https://godeamon.github.io/LoongFlow/test-doc/community/contributing/</loc>
-        <lastmod>2026-01-14</lastmod>
+        <lastmod>2026-01-16</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-doc/community/contributing/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doczh/community/contributing/"/>
     </url>
     <url>
+        <loc>https://godeamon.github.io/LoongFlow/test-doc/components/components/</loc>
+        <lastmod>2026-01-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-doc/components/components/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doczh/components/components/"/>
+    </url>
+    <url>
         <loc>https://godeamon.github.io/LoongFlow/test-doc/core/evolve_agent/</loc>
-        <lastmod>2026-01-14</lastmod>
+        <lastmod>2026-01-16</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-doc/core/evolve_agent/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doczh/core/evolve_agent/"/>
     </url>
     <url>
         <loc>https://godeamon.github.io/LoongFlow/test-doc/core/evolve_agent/components/</loc>
-        <lastmod>2026-01-14</lastmod>
+        <lastmod>2026-01-16</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-doc/core/evolve_agent/components/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doczh/core/evolve_agent/components/"/>
     </url>
     <url>
         <loc>https://godeamon.github.io/LoongFlow/test-doc/core/react_agent/</loc>
-        <lastmod>2026-01-14</lastmod>
+        <lastmod>2026-01-16</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-doc/core/react_agent/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doczh/core/react_agent/"/>
     </url>
     <url>
         <loc>https://godeamon.github.io/LoongFlow/test-doc/core/react_agent/usage/</loc>
-        <lastmod>2026-01-14</lastmod>
+        <lastmod>2026-01-16</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-doc/core/react_agent/usage/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doczh/core/react_agent/usage/"/>
     </url>
     <url>
-        <loc>https://godeamon.github.io/LoongFlow/test-doc/guide/general_evolve/</loc>
-        <lastmod>2026-01-14</lastmod>
+        <loc>https://godeamon.github.io/LoongFlow/test-doc/overview/design/</loc>
+        <lastmod>2026-01-16</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-doc/guide/general_evolve/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doczh/guide/general_evolve/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-doc/overview/design/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doczh/overview/design/"/>
     </url>
     <url>
-        <loc>https://godeamon.github.io/LoongFlow/test-doc/guide/ml_evolve/</loc>
-        <lastmod>2026-01-14</lastmod>
+        <loc>https://godeamon.github.io/LoongFlow/test-doc/overview/faq/</loc>
+        <lastmod>2026-01-16</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-doc/guide/ml_evolve/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doczh/guide/ml_evolve/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-doc/overview/faq/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doczh/overview/faq/"/>
     </url>
     <url>
-        <loc>https://godeamon.github.io/LoongFlow/test-doc/sdk/sdk/</loc>
-        <lastmod>2026-01-14</lastmod>
+        <loc>https://godeamon.github.io/LoongFlow/test-doc/overview/features/</loc>
+        <lastmod>2026-01-16</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-doc/sdk/sdk/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doczh/sdk/sdk/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-doc/overview/features/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doczh/overview/features/"/>
     </url>
     <url>
-        <loc>https://godeamon.github.io/LoongFlow/test-doc/modules/general_evolve/</loc>
-        <lastmod>2026-01-14</lastmod>
+        <loc>https://godeamon.github.io/LoongFlow/test-doc/overview/performance/</loc>
+        <lastmod>2026-01-16</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-doc/modules/general_evolve/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doczh/modules/general_evolve/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-doc/overview/performance/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doczh/overview/performance/"/>
     </url>
     <url>
-        <loc>https://godeamon.github.io/LoongFlow/test-doc/modules/ml_evolve/</loc>
-        <lastmod>2026-01-14</lastmod>
+        <loc>https://godeamon.github.io/LoongFlow/test-doc/overview/quickstart/</loc>
+        <lastmod>2026-01-16</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-doc/modules/ml_evolve/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doczh/modules/ml_evolve/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-doc/overview/quickstart/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doczh/overview/quickstart/"/>
+    </url>
+    <url>
+        <loc>https://godeamon.github.io/LoongFlow/test-doc/reference/reference/</loc>
+        <lastmod>2026-01-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-doc/reference/reference/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doczh/reference/reference/"/>
     </url>
     <url>
         <loc>https://godeamon.github.io/LoongFlow/test-doc/zh/agents_concept/</loc>
-        <lastmod>2026-01-14</lastmod>
+        <lastmod>2026-01-16</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doc/zh/agents_concept/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-docagents_concept/"/>
     </url>
     <url>
         <loc>https://godeamon.github.io/LoongFlow/test-doc/zh/contributing/</loc>
-        <lastmod>2026-01-14</lastmod>
+        <lastmod>2026-01-16</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doc/zh/contributing/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-doccontributing/"/>
     </url>
     <url>
         <loc>https://godeamon.github.io/LoongFlow/test-doc/zh/</loc>
-        <lastmod>2026-01-14</lastmod>
+        <lastmod>2026-01-16</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doc/zh/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-doc"/>
     </url>
     <url>
-        <loc>https://godeamon.github.io/LoongFlow/test-doc/zh/quickstart/</loc>
-        <lastmod>2026-01-14</lastmod>
+        <loc>https://godeamon.github.io/LoongFlow/test-doc/zh/agents/general_evolve/</loc>
+        <lastmod>2026-01-16</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doc/zh/quickstart/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-docquickstart/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doc/zh/agents/general_evolve/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-docagents/general_evolve/"/>
+    </url>
+    <url>
+        <loc>https://godeamon.github.io/LoongFlow/test-doc/zh/agents/ml_evolve/</loc>
+        <lastmod>2026-01-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doc/zh/agents/ml_evolve/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-docagents/ml_evolve/"/>
     </url>
     <url>
         <loc>https://godeamon.github.io/LoongFlow/test-doc/zh/community/contributing/</loc>
-        <lastmod>2026-01-14</lastmod>
+        <lastmod>2026-01-16</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doc/zh/community/contributing/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-doccommunity/contributing/"/>
     </url>
     <url>
+        <loc>https://godeamon.github.io/LoongFlow/test-doc/zh/components/components/</loc>
+        <lastmod>2026-01-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doc/zh/components/components/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-doccomponents/components/"/>
+    </url>
+    <url>
         <loc>https://godeamon.github.io/LoongFlow/test-doc/zh/core/evolve_agent/</loc>
-        <lastmod>2026-01-14</lastmod>
+        <lastmod>2026-01-16</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doc/zh/core/evolve_agent/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-doccore/evolve_agent/"/>
     </url>
     <url>
         <loc>https://godeamon.github.io/LoongFlow/test-doc/zh/core/evolve_agent/components/</loc>
-        <lastmod>2026-01-14</lastmod>
+        <lastmod>2026-01-16</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doc/zh/core/evolve_agent/components/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-doccore/evolve_agent/components/"/>
     </url>
     <url>
         <loc>https://godeamon.github.io/LoongFlow/test-doc/zh/core/react_agent/</loc>
-        <lastmod>2026-01-14</lastmod>
+        <lastmod>2026-01-16</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doc/zh/core/react_agent/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-doccore/react_agent/"/>
     </url>
     <url>
         <loc>https://godeamon.github.io/LoongFlow/test-doc/zh/core/react_agent/usage/</loc>
-        <lastmod>2026-01-14</lastmod>
+        <lastmod>2026-01-16</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doc/zh/core/react_agent/usage/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-doccore/react_agent/usage/"/>
     </url>
     <url>
-        <loc>https://godeamon.github.io/LoongFlow/test-doc/zh/guide/general_evolve/</loc>
-        <lastmod>2026-01-14</lastmod>
+        <loc>https://godeamon.github.io/LoongFlow/test-doc/zh/overview/design/</loc>
+        <lastmod>2026-01-16</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doc/zh/guide/general_evolve/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-docguide/general_evolve/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doc/zh/overview/design/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-docoverview/design/"/>
     </url>
     <url>
-        <loc>https://godeamon.github.io/LoongFlow/test-doc/zh/guide/ml_evolve/</loc>
-        <lastmod>2026-01-14</lastmod>
+        <loc>https://godeamon.github.io/LoongFlow/test-doc/zh/overview/faq/</loc>
+        <lastmod>2026-01-16</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doc/zh/guide/ml_evolve/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-docguide/ml_evolve/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doc/zh/overview/faq/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-docoverview/faq/"/>
     </url>
     <url>
-        <loc>https://godeamon.github.io/LoongFlow/test-doc/zh/sdk/sdk/</loc>
-        <lastmod>2026-01-14</lastmod>
+        <loc>https://godeamon.github.io/LoongFlow/test-doc/zh/overview/features/</loc>
+        <lastmod>2026-01-16</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doc/zh/sdk/sdk/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-docsdk/sdk/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doc/zh/overview/features/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-docoverview/features/"/>
     </url>
     <url>
-        <loc>https://godeamon.github.io/LoongFlow/test-doc/zh/modules/general_evolve/</loc>
-        <lastmod>2026-01-14</lastmod>
+        <loc>https://godeamon.github.io/LoongFlow/test-doc/zh/overview/performance/</loc>
+        <lastmod>2026-01-16</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doc/zh/modules/general_evolve/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-docmodules/general_evolve/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doc/zh/overview/performance/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-docoverview/performance/"/>
     </url>
     <url>
-        <loc>https://godeamon.github.io/LoongFlow/test-doc/zh/modules/ml_evolve/</loc>
-        <lastmod>2026-01-14</lastmod>
+        <loc>https://godeamon.github.io/LoongFlow/test-doc/zh/overview/quickstart/</loc>
+        <lastmod>2026-01-16</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doc/zh/modules/ml_evolve/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-docmodules/ml_evolve/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doc/zh/overview/quickstart/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-docoverview/quickstart/"/>
+    </url>
+    <url>
+        <loc>https://godeamon.github.io/LoongFlow/test-doc/zh/reference/reference/</loc>
+        <lastmod>2026-01-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doc/zh/reference/reference/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-docreference/reference/"/>
     </url>
 </urlset>
