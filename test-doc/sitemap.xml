@@ -238,4 +238,16 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doc/zh/reference/reference/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-docreference/reference/"/>
     </url>
+    <url>
+        <loc>https://godeamon.github.io/LoongFlow/test-doc/zh/build_agent/build_agent/</loc>
+        <lastmod>2026-01-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doc/zh/build_agent/build_agent/"/>
+    </url>
+    <url>
+        <loc>https://godeamon.github.io/LoongFlow/test-doc/zh/build_agent/get_started/</loc>
+        <lastmod>2026-01-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doc/zh/build_agent/get_started/"/>
+    </url>
 </urlset>
