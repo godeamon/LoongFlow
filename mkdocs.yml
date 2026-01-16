@@ -7,7 +7,7 @@ edit_uri: edit/main/docs/
 
 copyright: Copyright &copy; 2025 LoongFlow Team
 
-# 主题配置 (参考 ADK 风格: 左侧导航，无顶部Tab)
+# 主题配置
 theme:
   name: material
   logo: assets/images/loongflow_fr_v1.jpg
@@ -23,9 +23,8 @@ theme:
     - toc.follow             # 目录随滚动高亮
     - content.code.copy      # 代码块复制按钮
     - content.action.edit    # 编辑此页
-    # - navigation.tabs      # 禁用此项以保持左侧导航
   palette:
-    # 浅色模式 (Google ADK 风格)
+    # 浅色模式
     - scheme: default
       primary: white
       accent: blue
@@ -44,7 +43,7 @@ theme:
 plugins:
   - search
   - i18n:
-      docs_structure: folder # 关键配置：使用 en/ 和 zh/ 文件夹区分
+      docs_structure: folder
       languages:
         - locale: en
           name: English
@@ -55,12 +54,20 @@ plugins:
           build: true
       nav_translations:
         zh:
-          Home: 首页
+          Overview: 概览
           Quick Start: 快速开始
-          User Guide: 用户指南
-          Core Concepts: 核心概念
-          API Reference: API 参考
-          Community: 社区
+          Features & Guarantees: 特性与保障
+          FAQ: 常见问题
+          Performance: 性能
+          Design: 设计
+          Agents: 智能体
+          General Evolve: 通用进化
+          ML Evolve: 机器学习进化
+          Build Agents: 构建智能体
+          Get started: 准备工作
+          Build your agent: 构建指南
+          Components: 组件
+          Reference: 参考手册
 
 # Markdown 扩展
 markdown_extensions:
@@ -82,27 +89,31 @@ markdown_extensions:
   - toc:
       permalink: true
 
-# 版本管理 (配合 mike)
+# 版本管理
 extra:
   version:
     provider: mike
 
-# 导航结构 (路径相对于 en/ 或 zh/ 目录)
+# 新的导航结构
 nav:
-  - Home: index.md
-  - Quick Start: quickstart.md
-  - User Guide:
-      - General Evolve: guide/general_evolve.md
-      - ML Evolve: guide/ml_evolve.md
-  - Core Concepts:
-      # 下面变成了目录结构
-      - Evolve Agent:
-          - Overview: core/evolve_agent/index.md     # 对应原来的文件
-          - Components: core/evolve_agent/components.md # 新增的子页面
-      - React Agent:
-          - Overview: core/react_agent/index.md
-          - Usage: core/react_agent/usage.md
-  - API Reference:
-      - AgentSDK: sdk/sdk.md
-  - Community:
-      - Contributing: community/contributing.md
+  # 注意：index.md 虽然没在这里显式列出，但它仍作为根路径存在。
+  # 点击左上角 Logo 会跳转到 index.md，你可以将 index.md 内容改为重定向或项目介绍。
+  - Overview:
+      - Quick Start: overview/quickstart.md
+      - Features & Guarantees: overview/features.md
+      - FAQ: overview/faq.md
+      - Performance: overview/performance.md
+      - Design: overview/design.md
+  - Agents:
+      - General Evolve: agents/general_evolve.md
+      - ML Evolve: agents/ml_evolve.md
+  - Build Agents:
+      - Get started: build/get_started.md
+      - Build your agent: build/build_agent.md
+  - Components:
+      - components: components/components.md
+  - Reference:
+      - reference: reference/reference.md
+
+extra_css:
+  - assets/stylesheets/extra.css
