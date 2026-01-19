@@ -10,6 +10,7 @@ copyright: Copyright &copy; 2025 LoongFlow Team
 # 主题配置
 theme:
   name: material
+  language: en
   logo: assets/images/loongflow_fr_v1.jpg
   favicon: assets/images/loongflow_fr_v1.jpg
   icon:
@@ -49,25 +50,64 @@ plugins:
           name: English
           default: true
           build: true
+          # === 英文导航配置 (在这里定义) ===
+          nav:
+            - Home: index.md
+            - Overview:
+                - Quick Start: overview/quickstart.md
+                - Features & Guarantees: overview/features.md
+                - FAQ: overview/faq.md
+                - Performance: overview/performance.md
+                - Design: overview/design.md
+            - Agents:
+                - General Evolve: agents/general_evolve.md
+                - ML Evolve: agents/ml_evolve.md
+            - Components:
+                - Overview: components/components.md
+                - Memory: components/memory/index.md
+                - Tools: components/tools/index.md
+                - Logger: components/logger/index.md
+                - Message: components/message/index.md
+                - Models: components/models/index.md
+                - Token: components/token/index.md
+            - Build Agents:
+                - Getting Started: build_agent/get_started.md
+                - General Evolve Paradigm: build_agent/general_evolve.md
+                - ML Evolve Paradigm: build_agent/ml_evolve.md
+                - Custom Agent Development: build_agent/custom_guide.md
+            - Reference:
+                - reference: reference/reference.md
+
         - locale: zh
           name: 简体中文
           build: true
-      nav_translations:
-        zh:
-          Overview: 概览
-          Quick Start: 快速开始
-          Features & Guarantees: 特性与保障
-          FAQ: 常见问题
-          Performance: 性能
-          Design: 设计
-          Agents: 智能体
-          General Evolve: 通用进化
-          ML Evolve: 机器学习进化
-          Build Agents: 构建智能体
-          Get started: 准备工作
-          Build your agent: 构建指南
-          Components: 组件
-          Reference: 参考手册
+          # === 中文导航配置 (在这里定义，文件名路径保持不变，只改Key) ===
+          nav:
+            - 首页: index.md
+            - 概览:
+                - 快速开始: overview/quickstart.md
+                - 特性与保障: overview/features.md
+                - 常见问题: overview/faq.md
+                - 性能: overview/performance.md
+                - 设计: overview/design.md
+            - 智能体:
+                - 通用进化: agents/general_evolve.md
+                - 机器学习进化: agents/ml_evolve.md
+            - 组件:
+                - 概览: components/components.md
+                - 记忆: components/memory/index.md
+                - 工具: components/tools/index.md
+                - 日志: components/logger/index.md
+                - 消息: components/message/index.md
+                - 模型: components/models/index.md
+                - 令牌: components/token/index.md
+            - 构建智能体:
+                - 准备工作: build_agent/get_started.md
+                - 通用进化范式: build_agent/general_evolve.md
+                - 机器学习范式: build_agent/ml_evolve.md
+                - 自定义开发: build_agent/custom_guide.md
+            - 参考手册:
+                - 参考手册: reference/reference.md
 
 # Markdown 扩展
 markdown_extensions:
@@ -94,26 +134,6 @@ extra:
   version:
     provider: mike
 
-# 新的导航结构
-nav:
-  # 注意：index.md 虽然没在这里显式列出，但它仍作为根路径存在。
-  # 点击左上角 Logo 会跳转到 index.md，你可以将 index.md 内容改为重定向或项目介绍。
-  - Overview:
-      - Quick Start: overview/quickstart.md
-      - Features & Guarantees: overview/features.md
-      - FAQ: overview/faq.md
-      - Performance: overview/performance.md
-      - Design: overview/design.md
-  - Agents:
-      - General Evolve: agents/general_evolve.md
-      - ML Evolve: agents/ml_evolve.md
-  - Build Agents:
-      - Get started: build_agent/get_started.md
-      - Build your agent: build_agent/build_agent.md
-  - Components:
-      - components: components/components.md
-  - Reference:
-      - reference: reference/reference.md
 
 extra_css:
   - assets/stylesheets/extra.css

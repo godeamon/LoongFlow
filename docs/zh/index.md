@@ -285,7 +285,7 @@ For more details, please refer to [ReActAgent](./src/evolux/react)
 
 ## 🤝 贡献
 
-请阅读 [CONTRIBUTING.md](./CONTRIBUTING.md) 文件，了解行为准则以及提交拉取请求的流程。
+请阅读 [CONTRIBUTING.md]文件，了解行为准则以及提交拉取请求的流程。
 
 ## 💬 讨论
 
