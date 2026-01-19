@@ -64,7 +64,11 @@ plugins:
                 - ML Evolve: agents/ml_evolve.md
             - Components:
                 - Overview: components/components.md
-                - Memory: components/memory/index.md
+                - Memory:
+                    - Overview: components/memory/overview.md
+                    - Evolution Memory: components/memory/evolution.md
+                    - Grade Memory: components/memory/grade.md
+                    - Configuration: components/memory/configuration.md
                 - Tools: components/tools/index.md
                 - Logger: components/logger/index.md
                 - Message: components/message/index.md
@@ -95,7 +99,11 @@ plugins:
                 - 机器学习进化: agents/ml_evolve.md
             - 组件:
                 - 概览: components/components.md
-                - 记忆: components/memory/index.md
+                - 记忆:
+                    - 概览: components/memory/overview.md
+                    - 进化存储器: components/memory/evolution.md
+                    - 等级存储器: components/memory/grade.md
+                    - 配置指南: components/memory/configuration.md
                 - 工具: components/tools/index.md
                 - 日志: components/logger/index.md
                 - 消息: components/message/index.md
@@ -117,7 +125,7 @@ markdown_extensions:
       custom_fences:
         - name: mermaid
           class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
+          format: pymdownx.superfences.fence_div_format
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.highlight:
