@@ -16,7 +16,7 @@
         <link rel="prev" href="../../agents/ml_evolve/">
       
       
-        <link rel="next" href="../memory/">
+        <link rel="next" href="../memory/overview/">
       
       
         
@@ -664,9 +664,9 @@
         
       
         
-          
-        
       
+        
+          
         
       
         
@@ -694,7 +694,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../memory/" class="md-nav__link ">
+            <a href="../tools/" class="md-nav__link ">
               
   
   
@@ -910,6 +910,65 @@
               
             
               
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Memory
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Memory
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
             
               
                 
@@ -918,14 +977,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../tools/" class="md-nav__link">
+      <a href="../memory/overview/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Tools
+    Overview
   
 
     
@@ -937,6 +996,100 @@
     </li>
   
 
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../memory/evolution/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Evolution Memory
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../memory/grade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grade Memory
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../memory/configuration/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Configuration
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
               
             
               
@@ -1525,7 +1678,8 @@
 - <strong>Budget Management</strong>: Runtime token budget tracking
 - <strong>Optimization</strong>: Token usage optimization strategies</p>
 <h2 id="component-interaction">Component Interaction<a class="headerlink" href="#component-interaction" title="Permanent link">&para;</a></h2>
-<pre class="mermaid"><code>graph TD
+<p><code>mermaid
+graph TD
     A[Planner] --&gt; B[Tools]
     B --&gt; C[Models]
     C --&gt; D[Memory]
@@ -1533,7 +1687,7 @@
     E --&gt; F[Message]
     F --&gt; G[Executor]
     G --&gt; H[Summary]
-    H --&gt; A</code></pre>
+    H --&gt; A</code></p>
 <h2 id="customization">Customization<a class="headerlink" href="#customization" title="Permanent link">&para;</a></h2>
 <p>Each component can be customized by:
 1. <strong>Configuration</strong>: Modify component behavior via YAML config

@@ -662,9 +662,9 @@
         
       
         
-          
-        
       
+        
+          
         
       
         
@@ -694,7 +694,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../components/memory/" class="md-nav__link ">
+            <a href="../../components/tools/" class="md-nav__link ">
               
   
   
@@ -758,6 +758,65 @@
               
             
               
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Memory
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Memory
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
             
               
                 
@@ -766,14 +825,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../components/tools/" class="md-nav__link">
+      <a href="../../components/memory/overview/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Tools
+    Overview
   
 
     
@@ -785,6 +844,100 @@
     </li>
   
 
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../components/memory/evolution/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Evolution Memory
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../components/memory/grade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grade Memory
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../components/memory/configuration/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Configuration
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
               
             
               
@@ -1984,19 +2137,21 @@
 - <code>mlebench</code>: MLE-Bench competition tasks
 - Custom ML competition setups</p>
 <h2 id="architecture-overview">🏗️ Architecture Overview<a class="headerlink" href="#architecture-overview" title="Permanent link">&para;</a></h2>
-<pre class="mermaid"><code>graph TB
+<p>```mermaid
+graph TB
     P[ML Planner] --&gt; EC[Evocoder]
     EC --&gt; EX[ML Executor]
     EX --&gt; EV[Evaluator]
     EV --&gt; S[ML Summary]
     S --&gt; M[Memory]
-    M --&gt; P
-
-    P --&gt; T1[Problem Analysis]
-    EC --&gt; T2[Code Generation]
-    EX --&gt; T3[Pipeline Execution]
-    EV --&gt; T4[Model Evaluation]
-    S --&gt; T5[Insight Generation]</code></pre>
+    M --&gt; P</p>
+<div class="highlight"><pre><span></span><code>P --&gt; T1[Problem Analysis]
+EC --&gt; T2[Code Generation]
+EX --&gt; T3[Pipeline Execution]
+EV --&gt; T4[Model Evaluation]
+S --&gt; T5[Insight Generation]
+</code></pre></div>
+<p>```</p>
 <h3 id="specialized-components">Specialized Components<a class="headerlink" href="#specialized-components" title="Permanent link">&para;</a></h3>
 <p><strong>ML Planner</strong>
 - Analyzes dataset characteristics

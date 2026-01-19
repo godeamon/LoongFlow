@@ -16,7 +16,7 @@
         <link rel="prev" href="../../agents/ml_evolve/">
       
       
-        <link rel="next" href="../memory/">
+        <link rel="next" href="../memory/overview/">
       
       
         
@@ -664,9 +664,9 @@
         
       
         
-          
-        
       
+        
+          
         
       
         
@@ -694,7 +694,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../memory/" class="md-nav__link ">
+            <a href="../tools/" class="md-nav__link ">
               
   
   
@@ -910,6 +910,65 @@
               
             
               
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    记忆
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    记忆
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
             
               
                 
@@ -918,14 +977,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../tools/" class="md-nav__link">
+      <a href="../memory/overview/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    工具
+    概览
   
 
     
@@ -937,6 +996,100 @@
     </li>
   
 
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../memory/evolution/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    进化存储器
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../memory/grade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    等级存储器
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../memory/configuration/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    配置指南
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
               
             
               
@@ -1525,7 +1678,8 @@
 - <strong>预算管理</strong>：运行时令牌预算跟踪
 - <strong>优化</strong>：令牌使用优化策略</p>
 <h2 id="_3">组件交互<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
-<pre class="mermaid"><code>graph TD
+<p><code>mermaid
+graph TD
     A[计划器] --&gt; B[工具]
     B --&gt; C[模型]
     C --&gt; D[存储器]
@@ -1533,7 +1687,7 @@
     E --&gt; F[消息]
     F --&gt; G[执行器]
     G --&gt; H[总结器]
-    H --&gt; A</code></pre>
+    H --&gt; A</code></p>
 <h2 id="_4">自定义<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
 <p>每个组件可以通过以下方式自定义：
 1. <strong>配置</strong>：通过YAML配置修改组件行为

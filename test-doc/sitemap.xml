@@ -78,11 +78,32 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doczh/components/logger/"/>
     </url>
     <url>
-        <loc>https://godeamon.github.io/LoongFlow/test-doc/components/memory/</loc>
+        <loc>https://godeamon.github.io/LoongFlow/test-doc/components/memory/configuration/</loc>
         <lastmod>2026-01-19</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-doc/components/memory/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doczh/components/memory/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-doc/components/memory/configuration/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doczh/components/memory/configuration/"/>
+    </url>
+    <url>
+        <loc>https://godeamon.github.io/LoongFlow/test-doc/components/memory/evolution/</loc>
+        <lastmod>2026-01-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-doc/components/memory/evolution/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doczh/components/memory/evolution/"/>
+    </url>
+    <url>
+        <loc>https://godeamon.github.io/LoongFlow/test-doc/components/memory/grade/</loc>
+        <lastmod>2026-01-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-doc/components/memory/grade/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doczh/components/memory/grade/"/>
+    </url>
+    <url>
+        <loc>https://godeamon.github.io/LoongFlow/test-doc/components/memory/overview/</loc>
+        <lastmod>2026-01-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-doc/components/memory/overview/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doczh/components/memory/overview/"/>
     </url>
     <url>
         <loc>https://godeamon.github.io/LoongFlow/test-doc/components/message/</loc>
@@ -260,11 +281,32 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-doccomponents/logger/"/>
     </url>
     <url>
-        <loc>https://godeamon.github.io/LoongFlow/test-doc/zh/components/memory/</loc>
+        <loc>https://godeamon.github.io/LoongFlow/test-doc/zh/components/memory/configuration/</loc>
         <lastmod>2026-01-19</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doc/zh/components/memory/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-doccomponents/memory/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doc/zh/components/memory/configuration/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-doccomponents/memory/configuration/"/>
+    </url>
+    <url>
+        <loc>https://godeamon.github.io/LoongFlow/test-doc/zh/components/memory/evolution/</loc>
+        <lastmod>2026-01-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doc/zh/components/memory/evolution/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-doccomponents/memory/evolution/"/>
+    </url>
+    <url>
+        <loc>https://godeamon.github.io/LoongFlow/test-doc/zh/components/memory/grade/</loc>
+        <lastmod>2026-01-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doc/zh/components/memory/grade/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-doccomponents/memory/grade/"/>
+    </url>
+    <url>
+        <loc>https://godeamon.github.io/LoongFlow/test-doc/zh/components/memory/overview/</loc>
+        <lastmod>2026-01-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://godeamon.github.io/LoongFlow/test-doc/zh/components/memory/overview/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://godeamon.github.io/LoongFlow/test-doccomponents/memory/overview/"/>
     </url>
     <url>
         <loc>https://godeamon.github.io/LoongFlow/test-doc/zh/components/message/</loc>
